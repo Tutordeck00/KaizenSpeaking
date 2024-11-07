@@ -1,2 +1,10 @@
 fastapi
 uvicorn
+alembic
+SQLAlchemy
+PyJWT
+python-dotenv
+psycopg2-binary
+pydantic
+passlib
+bcrypt

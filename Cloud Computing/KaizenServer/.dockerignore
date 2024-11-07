@@ -1,0 +1,12 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore the virtual environment directory
+.venv/
+# Ignore the Dockerfile itself if not needed in the build context
+Dockerfile
+# Optionally, exclude logs and temporary files
+*.log
+*.tmp

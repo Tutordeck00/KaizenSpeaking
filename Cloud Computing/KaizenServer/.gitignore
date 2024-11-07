@@ -47,6 +47,7 @@ coverage.xml
 nosetests.xml
 test.db
 *.sqlite3
+service_account.json
 
 # Translations
 *.mo
@@ -70,7 +71,8 @@ docs/_build/
 *.idea/*
 
 # Virtualenv
-.env
+.env.development
+.env.local
 .venv
 ENV/
 env/
